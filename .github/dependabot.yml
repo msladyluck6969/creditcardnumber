@@ -1,4 +1,5 @@
-version: 2
+- name: Prepare for Build with Apache Maven
+  uses: sualeh/prepare-maven-build@v1.7.2version: 2
 updates:
   - package-ecosystem: maven
     directory: "/"
